@@ -1,0 +1,40 @@
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+.site-info a {
+	color: #686868;
+	text-decoration: none;
+	
+	&:visited {
+		color: #686868;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: #686868;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

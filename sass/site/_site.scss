@@ -1,0 +1,76 @@
+// @import "../layout/content-sidebar";
+// @import "../layout/sidebar-content";
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+@import "primary/posts-and-pages";
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+@import "primary/comments";
+
+.site {
+	margin: 1.25rem auto;
+	max-width: 1320px;
+	position: relative;
+	}
+	
+.site-header {
+	padding: 5.25em 4.5455%;
+}
+
+.site-title {
+	font-size: 1.75rem;
+	line-height: 1.25;
+	margin: 0;
+}
+
+.site-branding .site-title a {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+.site-description {
+	display: block;
+	color: #686868;
+	font-size: 0.8125rem;
+	font-weight: 400;
+	line-height: 1.0769230769;
+	margin: 0.538461538em 0 0;
+}
+
+.site-content {
+	padding: 0 4.5455%;
+}
+
+.content-area {
+	margin: auto;
+	width: 70%
+}
+
+.site-footer {
+	display: flex;
+	padding: 0 4.5455% 3.5em;
+}
+
+.site-footer .site-title {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 400;
+}
+
+.site-footer .site-title:after {
+	content: "\002f";
+	display: inline-block;
+	opacity: 0.7;
+	padding: 0 0.307692308em 0 0.538461538em;
+}
+
+.site-info {
+	color: #686868;
+	font-size: 0.8125rem;
+	line-height: 1.6153846154;
+	margin: 0.538461538em auto 0.538461538em 0;
+	order: 1;
+}

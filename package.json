@@ -1,0 +1,27 @@
+{
+  "name": "glasgowshipyard",
+  "version": "1.0.0",
+  "description": "Glasgow Shipyard's Theme",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killinski/glasgowshipyard.git"
+  },
+  "keywords": [
+    "Wordpress",
+    "Underscores",
+    "Hard",
+    "Graft"
+  ],
+  "author": "Glasgow Shipyard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/killinski/glasgowshipyard/issues"
+  },
+  "homepage": "https://github.com/killinski/glasgowshipyard#readme"
+}
